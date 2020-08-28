@@ -11,7 +11,7 @@ export default class MovieShowcase extends Component {
       IMDBRating={mData.IMDBRating}
       genres={mData.genres}
       poster={mData.poster}
-    />
+    />))
 
     // map over your movieData array and return an array of the correct JSX
   }
